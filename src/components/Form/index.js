@@ -23,7 +23,7 @@ export default function Form({ handleAdd, transactionsList, setTransactionsList 
       description: description,
       amount: amount,
       expense: isExpense,
-      date: new Date()
+      date: new Date().toLocaleString()
     };
 
     handleAdd(transaction);

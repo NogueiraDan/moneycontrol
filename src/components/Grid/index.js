@@ -10,11 +10,11 @@ const Grid = ({ itens }) => {
       <S.Thead>
         <S.Tr>
           <S.Th width={40}>Descrição</S.Th>
-          <S.Th width={40}>Valor</S.Th>
+          <S.Th width={25}>Valor</S.Th>
           <S.Th width={10} alignCenter>
             Tipo
           </S.Th>
-          <S.Th width={10} alignCenter>
+          <S.Th width={20} alignCenter>
             Data
           </S.Th>
           <S.Th width={10}></S.Th>
