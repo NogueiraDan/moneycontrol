@@ -45,5 +45,9 @@ transition: all 0.3s ease;
   scale: 1.1;
 }
 
+@media (min-width: 200px) and (max-width: 768px){
+  width: 50%;
+}
+
 
 `;
