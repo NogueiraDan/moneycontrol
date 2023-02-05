@@ -23,3 +23,27 @@ export const Th = styled.th`
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   width: ${(props) => (props.width ? props.width + "%" : "auto")};
 `;
+
+export const PDF = styled.div`
+margin: 20px 0 0 0;
+display: flex;
+justify-content: center;
+
+
+`;
+export const PDFButton = styled.button`
+height: 40px;
+width: 10%;
+background: #049181;
+border: none;
+border-radius: 5px;
+color: #fff;
+font-size; 16px;
+cursor: pointer;
+transition: all 0.3s ease; 
+&:hover {
+  scale: 1.1;
+}
+
+
+`;

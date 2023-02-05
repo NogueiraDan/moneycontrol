@@ -3,6 +3,7 @@ import * as S from "./style";
 
 
 const GridItem = ({ item }) => {
+  
   return (
     <S.Tr>
       <S.Td>{item.description}</S.Td>
